@@ -207,7 +207,7 @@ On peut effectuer un calcul plus efficace des termes de la suite en écrivant un
 c’est-à-dire telle que fib2 n donne la paire ![equation](http://latex.codecogs.com/gif.latex?(U_{n},U_{n+1})) chaque appel de la fonction fib2 ne nécessitera alors plus qu’un seul appel récursif.
 
 > **Question 4**
-> * Implémenter une telle fonction fib2.( [aide (link)](http://fr.wikipedia.org/wiki/Suite_de_Fibonacci) ) 
+> * Implémenter une telle fonction fibLin.( [aide (link)](http://fr.wikipedia.org/wiki/Suite_de_Fibonacci) ) 
 > * Qui a pour signature :  `fibLin : (n: Int, b: Long, a: Long) Long`
 > * Combien d’additions effectue-t-on pour calculer ![equation](http://latex.codecogs.com/gif.latex?U_{n}) avec cette méthode ?
 
