@@ -186,7 +186,7 @@ show(x => x * x, 1, 2, 3)
 # 2 La suite de Fibonacci
 La suite de Fibonacci est une suite d’entiers ![equation](http://latex.codecogs.com/gif.latex?U_{n}) définie récursivement par les relations :
 
-![equation](http://latex.codecogs.com/gif.latex?%20F_%7Bn%7D%20%20%3D%5Cbegin%7Bcases%7D0%20%26%20n%20%3D%200%5C%5C1%20%26%20n%20%3D%201%5C%5CF_%7Bn-1%7D%2BF_%7Bn-2%7D%20%26%20x%20%3E%201%5Cend%7Bcases%7D%20&)
+![equation](http://latex.codecogs.com/gif.latex?+F_%7Bn%7D++%3D%5Cbegin%7Bcases%7D0+%26+n+%3D+0%5C%5C1+%26+n+%3D+1%5C%5CF_%7Bn-1%7D%2BF_%7Bn-2%7D+%26+n+%3E+1%5Cend%7Bcases%7D+&)
 
 ## 2.1 Calcul en temps exponentiel
 > Temps exponentiel: 
