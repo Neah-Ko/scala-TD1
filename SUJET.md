@@ -179,8 +179,8 @@ Observez comme les programmes show et showSquares sont similaires : leur seule d
 > qui affiche tous les nombres de la liste xs après les avoir transformés avec la fonction f. 
 > Exemples d’utilisation :
 >```scala
-show(x => x, 1, 2, 3)
-show(x => x * x, 1, 2, 3)
+show(x => x, List(1, 2, 3))
+show(x => x * x,List( 1, 2, 3))
 ```
 
 # 2 La suite de Fibonacci
